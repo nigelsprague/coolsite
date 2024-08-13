@@ -41,8 +41,12 @@ footer {
   display: flex;
 }
 
-.w-50 {
-  width: 50%;
+.w-45 {
+  width: 45%;
+}
+
+.w-55 {
+  width: 55%;
 }
 
 .w-100 {
