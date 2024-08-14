@@ -115,4 +115,8 @@ footer {
     text-align: center;
   }
 
+  .page-link>a {
+    max-width: 20%;
+  }
+
 }
