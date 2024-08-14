@@ -67,6 +67,7 @@ footer {
 }
 
 .page-link {
+  text-align: center;
   justify-content: space-evenly;
   background-color: white;
 }
@@ -79,4 +80,38 @@ footer {
 .footer-blurb {
   flex-direction: column;
   align-items: center;
+}
+
+@media (max-width: 700px) {
+  .info-link {
+    display: flex;
+    width: 60vw;
+    font-size: 80%;
+    align-items: center;
+    text-align: center;
+  }
+
+  .info-link a:last-child {
+    padding: .5em 0;
+  }
+
+  main {
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 1.5em;
+  }
+
+  .w-50 {
+    width: unset;
+  }
+
+  .pb {
+    padding-bottom: 1.5em;
+  }
+
+  .footer-blurb {
+    padding-inline: 1em;
+    text-align: center;
+  }
+
 }
