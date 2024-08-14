@@ -89,6 +89,7 @@ footer {
     font-size: 80%;
     align-items: center;
     text-align: center;
+    justify-content: flex-end;
   }
 
   .info-link a:last-child {
